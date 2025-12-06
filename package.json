@@ -1,0 +1,32 @@
+{
+  "name": "multi-framework-design-system-colocated",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "pnpm lint --fix",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "types": "tsc --noEmit",
+    "check": "pnpm lint && pnpm format && pnpm types",
+    "fix": "pnpm lint:fix && pnpm format:fix"
+  },
+  "packageManager": "pnpm@10.24.0",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "volta": {
+    "node": "24.11.1",
+    "pnpm": "10.24.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@typescript-eslint/parser": "^8.48.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-astro": "^1.5.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "prettier": "3.6.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript": "catalog:",
+    "typescript-eslint": "^8.46.3"
+  }
+}

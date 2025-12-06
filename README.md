@@ -1,2 +1,3 @@
-# multi-framework-design-system-colocated
-Multi-Framework Design System. Everything colocated.
+# MFDSC
+
+Multi-Framework Design System with maximum Colocation.

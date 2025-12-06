@@ -1,0 +1,26 @@
+{
+  "name": "@danielroetzer/mfdsc",
+  "version": "0.0.1",
+  "description": "Multi-Framework Design System with maximum Colocation",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "Daniel Rötzer",
+  "packageManager": "pnpm@10.24.0",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "volta": {
+    "node": "24.11.1",
+    "pnpm": "10.24.0"
+  },
+  "dependencies": {
+    "@radix-ui/colors": "catalog:"
+  },
+  "devDependencies": {
+    "@vanilla-extract/css": "catalog:",
+    "typescript": "catalog:"
+  }
+}
