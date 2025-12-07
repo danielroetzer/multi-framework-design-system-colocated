@@ -1,6 +1,21 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "baseUrl": "."
-  }
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    // JSX is configured globally for Solid by default.
+    // To fix types in React components, add the following line to the top of the file:
+    /** @jsxImportSource react */
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/**/*.svelte",
+    "src/**/*.d.ts"
+  ]
 }
